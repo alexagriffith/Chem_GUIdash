@@ -1,0 +1,4 @@
+#tab, td{
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 155, 155);
+}
