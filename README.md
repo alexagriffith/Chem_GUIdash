@@ -7,6 +7,8 @@ Using Bootstrap template with CSS, HTML, and JavaScript for the frontend, and Py
 Chart.js for the data plots. 
 
 Preview:
-![pic1_419.png](https://github.com/alexagriffith/Chem_GUIdash/blob/master/myExpressApp/example_pics/pic1_419.png)
+![Dashboard-1.png](https://github.com/alexagriffith/Chem_GUIdash/blob/master/myExpressApp/example_pics/Dashboard-1.png)
 
-![pic2_419.ong](https://github.com/alexagriffith/Chem_GUIdash/blob/master/myExpressApp/example_pics/pic2_419.png)
+![Dashboard-2.png](https://github.com/alexagriffith/Chem_GUIdash/blob/master/myExpressApp/example_pics/Dashboard-2.png)
+
+![Dashboard-3.png](https://github.com/alexagriffith/Chem_GUIdash/blob/master/myExpressApp/example_pics/Dashboard-3.png)
