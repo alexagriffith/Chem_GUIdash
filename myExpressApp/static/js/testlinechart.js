@@ -25,16 +25,16 @@ var chartColors = {
         showLine: false,
         borderColor: '#dc3545',
         backgroundColor: '#dc3545',
-        pointRadius: 10,
+        pointRadius: 15,
         pointHoverRadius: 15,
       }, {
         label: "Geometry Optimization",
-        data: [null, null, 'Opt', 'Opt', null],
+        data: [null, 'Opt', 'Opt', 'Opt', null],
         fill: false,
         showLine: false,
         borderColor: chartColors.yellow,
         backgroundColor: chartColors.yellow,
-        pointRadius: 10,
+        pointRadius: 20,
         pointHoverRadius: 15,
       }, {
         label: "Hessian",
@@ -43,7 +43,7 @@ var chartColors = {
         showLine: false,
         borderColor: "rgba(2,117,216,1)",
         backgroundColor: "rgba(2,117,216,1)",
-        pointRadius: 10,
+        pointRadius: 25,
         pointHoverRadius: 15,
     }, {
             label: "Analyze",
@@ -52,7 +52,7 @@ var chartColors = {
             showLine: false,
             borderColor: '#28a745',
             backgroundColor: '#28a745',
-            pointRadius: 10,
+            pointRadius: 30,
             pointHoverRadius: 15,
           }]
         },

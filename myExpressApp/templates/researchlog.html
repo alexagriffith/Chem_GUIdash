@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head> <meta charset="utf-8" />
-    <title>Dashboard</title>
+    <title>Research Log</title>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -91,7 +91,7 @@
                             <div class="card-body-icon">
                                 <i class="fa fa-fw fa-list"></i>
                             </div>
-                            <div class="mr-5">To do List</div>
+                            <div class="mr-5">To do list</div>
                         </div>
                         <a class="card-footer text-white clearfix small z-1" role="button" href="/templates/todolist.html">
                             <span class="float-left">View Details</span>
@@ -134,44 +134,6 @@
                     </div>
                 </div>
             </div>
-            <!--PROGRESS CHART-->
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="card mb-3">
-                        <div class="card-header">
-                            <i class="fa fa-line-chart"></i>Progress Report</div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-12 my-auto">
-                                    <canvas id="canvas"></canvas>
-                                </div>
-                            </div>
-                         </div>
-                        </div>
-                    </div>
-                <div class="col-md-4">
-                    <!-- Example Notifications Card-->
-                    <div class="card mb-3">
-                        <div class="card-header">
-                            <i class="fa fa-bell-o"></i> Recent Updates</div>
-                        <div class="list-group list-group-flush small">
-                            <div id="message-box">
-
-
-                               <!--RANDOM QUOTE GENERATOR-->
-
-
-                            <a class="list-group-item list-group-item-action" href="#">
-                                    <div class="text-center" style="color:black; font-size: large"> <strong>Daily Inspiration</strong>
-                                    </div>
-                                    <span class="text-center" style="color:black; font-size: medium">
-                                    <div id="qt"></div>
-                                </span>
-                                    <div id="button" class="text-center">  <button type="button" class="btn btn-primary btn-small"><span>get quote</span>
-                                    </button>
-                                    </div>
-                                    <script src="quoteGen2.js"></script>
-                                </a>
 
 
 
@@ -182,56 +144,24 @@
 
 
 
-                                <a class="list-group-item list-group-item-action" href="#">
-                                    <strong>Model X</strong>
-                                    <div class="card-body-icon">
-                                        <span style="color:red; font-size: large"><i class="far fa-frown-open"></i></span>
-                                        <div style="color:red"><strong>Status: Crashed</strong></div>
-                                        <div class="text-muted smaller">Today, 2:50 P.M.</div>
-
-                                    </div>
-                                </a>
-                                <a class="list-group-item list-group-item-action" href="#">
-                                    <div class="float-center"> <strong>Model Y</strong>
-                                    </div>
-                                    <div class="card-body-icon">
-                                        <span style="color:limegreen; font-size: large"><i
-                                                class="far fa-smile"></i></span>
-                                        <span class="float-center"> <span style="color:limegreen"><strong> Status: Converged successfully!</strong></span></span>
-                                        <div class="text-muted smaller"> Today, 11:30 A.M</div>
-                                    </div>
-                                </a>
 
 
 
 
 
-                            </div>
 
 
 
-                            <a class="list-group-item list-group-item-action" href="#">View all activity...</a>
-                        </div>
-                        <div class="card-footer small text-muted">Updated today at 3:00 P.M.</div>
-                    </div>
-                                
 
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>  
-    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-</div>
-</div>
-    <footer class="sticky-footer">
-        <div class="container">
-            <div class="text-center">
-                <small>Copyright © AlexaGriffith 2019</small>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+
+
+
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
@@ -244,16 +174,12 @@
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
     <script src="../static/js/areachart.js"></script>
-    <script src="../vendor/chart.js/utils.js"></script>
-    <script src="../vendor/jquery/jquery.slim.js"></script>
-    <script src="../static/js/testlinechart.js"></script>
-    <!--script src="{{ url_for('static', filename='js/message.js') }}"></script>-->
-
-    <!--script for random quote generator-->
-    <script src="/static/js/randomquotes.js"></script>
-
-
-    </div>
+    <script src="js/demo/datatables-demo.js"></script>
+    <script src="/vendor/chart.js/utils.js"></script>
+    <script src="/vendor/jquery/jquery.slim.js"></script>
+<script src="/vendor/chart.js/utils.js"></script>
+<script src="/vendor/chart.js/Chart.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"> </script> 
 </body>
-
 </html>
